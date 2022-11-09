@@ -33,4 +33,10 @@ def pajero3Door():
     for ser, marka, model, pokolenie, modif, dvig, kpp, privod in p:
         print(ser.value, marka.value, model.value, pokolenie.value, modif.value, dvig.value, kpp.value, privod.value)
 
-pajero3Door()
+def pajeroMini3Door(): 
+    p = shet['B152':'I162']
+  
+    for ser, marka, model, pokolenie, modif, dvig, kpp, privod in p:
+        print(ser.value, marka.value, model.value, pokolenie.value, modif.value, dvig.value, kpp.value, privod.value)
+
+pajeroMini3Door()
