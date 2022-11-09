@@ -27,6 +27,10 @@ def montero3Door():
     for ser, marka, model, pokolenie, modif, dvig, kpp, privod in p:
         print(ser.value, marka.value, model.value, pokolenie.value, modif.value, dvig.value, kpp.value, privod.value)
 
+def pajero3Door(): 
+    p = shet['B120':'I151']
+  
+    for ser, marka, model, pokolenie, modif, dvig, kpp, privod in p:
+        print(ser.value, marka.value, model.value, pokolenie.value, modif.value, dvig.value, kpp.value, privod.value)
 
-
-montero3Door()
+pajero3Door()
