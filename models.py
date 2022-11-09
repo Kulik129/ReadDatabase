@@ -15,4 +15,10 @@ def pajeroMini():
     for ser, marka, model, pokolenie, modif, dvig, kpp, privod in p:
         print(ser.value, marka.value, model.value, pokolenie.value, modif.value, dvig.value, kpp.value, privod.value)
 
-pajeroMini()
+def pajeroSport(): 
+    p = shet['B33':'I58']
+  
+    for ser, marka, model, pokolenie, modif, dvig, kpp, privod in p:
+        print(ser.value, marka.value, model.value, pokolenie.value, modif.value, dvig.value, kpp.value, privod.value)
+
+pajeroSport()
