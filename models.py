@@ -51,4 +51,11 @@ def pajeroMontero5Door():
     for ser, marka, model, pokolenie, modif, dvig, kpp, privod in p:
         print(ser.value, marka.value, model.value, pokolenie.value, modif.value, dvig.value, kpp.value, privod.value)
 
-pajeroMontero5Door()
+
+def pajero5Door(): 
+    p = shet['B231':'I291']
+  
+    for ser, marka, model, pokolenie, modif, dvig, kpp, privod in p:
+        print(ser.value, marka.value, model.value, pokolenie.value, modif.value, dvig.value, kpp.value, privod.value)
+
+pajero5Door()
